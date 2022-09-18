@@ -19,7 +19,7 @@
 ## Role Based Access Control Todo App
 
 - admin：
-	- allow /users、/todos are all allowed
+	- allow /users & /todos all operations
   - The first created user is the admin
 - member：
 	- allow read /todos & /users 
