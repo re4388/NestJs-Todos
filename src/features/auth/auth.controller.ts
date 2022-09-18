@@ -16,7 +16,6 @@ export class AuthController {
     @Post('/signup')
     async signup(@Body() dto: CreateUserDto) {
         const hasUser = await this.userService.hasUser();
-        console.log("hasUser", hasUser);
         if (hasUser) {
             throw new ForbiddenException();
         }
