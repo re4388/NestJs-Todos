@@ -1,4 +1,4 @@
-# NestJS todo
+# Role Based Access Control Todo App / NestJS
 
 ## Documentation
 
@@ -16,7 +16,7 @@
   - member
   - manager
 
-## Role Based Access Control Todo App
+## Role Based Access Control
 
 - admin：
 	- allow /users & /todos all operations
